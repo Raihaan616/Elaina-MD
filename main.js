@@ -6,6 +6,7 @@
         makeInMemoryStore,
         jidNormalizedUser,
         makeCacheableSignalKeyStore,
+        default : makeWASocket,
         PHONENUMBER_MCC
     } = require('@whiskeysockets/baileys')
     const readline = require('readline')
